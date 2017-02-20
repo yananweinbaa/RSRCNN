@@ -19,11 +19,18 @@ Dataset:
 You can found the dataset(Massachusetts Roads Dataset) [here](https://www.cs.toronto.edu/%7Evmnih/data/.).  Note that we followed MnihThesis to divide those 1,171 aerial
 images into training (1,108 images), validation (14 images) and test sets (49 images).
 (After observing the dateset, you may find that there exist some images which has partial mismatched groundtruth. 
-It is because the Massachusetts Roads Dataset to study the effectiveness of the robust in [MnihThesis's work](https://www.cs.toronto.edu/%7Evmnih/docs/Mnih_Volodymyr_PhD_Thesis.pdf)
+It is because the Massachusetts Roads Dataset is used to study the effectiveness of the robust in [MnihThesis's work](https://www.cs.toronto.edu/%7Evmnih/docs/Mnih_Volodymyr_PhD_Thesis.pdf).
 Therefore, you have to discard some samples.)
 
 Experiment:
 ---------------------------------------------
-####Install Caffe-future
-####Create Dataset
-#####Segmente each image, in training, validation and test sets, into 16 non-overlapping 375× 375 images
+###Install Caffe-future
+
+You should use the Caffe-future source files provided, since the cross-entropy loss layer has been changed to obtain a road-structure-based loss. You can refer to the [setup guide](http://caffe.berkeleyvision.org/install_apt.html) to install caffe(using cuda can speed up training). 
+
+###Create Dataset
+
+*Segmente each image, in training, validation and test sets, into 16 non-overlapping 375× 375 images. And applying 
+*suXXX the training set and develop the .txt files containing all the name of images in the  training set (FindList.sh is referable to do this work).
+*using the .txt files to develop the lmdb files. MakeLmdb.sh can finish this work.
+*develop the mean.binaryproto files. MakeMean.sh can work well.
