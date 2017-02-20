@@ -1,7 +1,7 @@
 ## RSRCNN\
 Work in ''Road Structure Refined CNN for Road Extraction in Aerial Image''
 
-...........updating............
+...........updating............if any question, send your e-mial to yananwei@buaa.edu.cn
 
 Requirements:
 --------------------------------------------
@@ -31,6 +31,6 @@ You should use the Caffe-future source files provided, since the cross-entropy l
 ###Create Dataset
 
 *Segmente each image, in training, validation and test sets, into 16 non-overlapping 375× 375 images. <br>
-*suXXX the training set and develop the .txt files containing all the name and label of images in the  training set (FindList.sh is referable to do this work).<br>
+*suXXX the training set and develop the .txt files containing all the names and labels of images in the  training set (FindList.sh is referable to do this work).<br>
 *using the .txt files to develop the lmdb files. MakeLmdb.sh can finish this work.<br>
 *develop the mean.binaryproto files. MakeMean.sh can work well.<br>
