@@ -39,4 +39,4 @@ You should use the Caffe-future source files provided, since the cross-entropy l
 
 ###Training
 
-Please using the upload Road structure refined loss layer to train model.
+After the steps above, you can use the upload Road structure refined loss layer to train models.
