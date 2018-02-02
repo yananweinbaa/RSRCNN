@@ -2,7 +2,7 @@
 Work in ''Road Structure Refined CNN for Road Extraction in Aerial Image''
 [Download](http://ieeexplore.ieee.org/document/7876793/?reload=true)
 
-...........unfinished and updating............<br>
+
 if any question, send your e-mial to yananwei@buaa.edu.cn
 
 Requirements:
