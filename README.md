@@ -28,7 +28,7 @@ Experiment:
 ---------------------------------------------
 ###Install Caffe-future
 
-You should use the Caffe-future source files provided, since the cross-entropy loss layer has been changed to obtain a road-structure-based loss in the caffe-future version which is provided by us. You can refer to the [setup guide](http://caffe.berkeleyvision.org/install_apt.html) to install caffe(Note that using cuda can speed up training and you needn't to 'make runtest' when install Caffe-future.). 
+You should use the Caffe-future source files provided, since the cross-entropy loss layer has been changed to obtain a road-structure-based loss in the caffe-future version which is provided by us. You can refer to the [setup guide](http://caffe.berkeleyvision.org/install_apt.html) to install caffe(Note that using cuda can speed up training.). 
 
 ###Create Dataset
 * Make your own groudtruth for training images, you can use Compute.m provide by us.<br>
